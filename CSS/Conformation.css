@@ -1,0 +1,22 @@
+.parent{
+    display:flex;
+    flex-direction: row;
+    flex-grow: same;
+    margin: auto;
+}
+.child1{
+    width:1000px;
+    height:700px;
+    background-color: lavender;
+    margin:auto
+}
+button{
+   
+    background-color: rgb(213, 43, 31);
+    color:rgb(255,255,255);
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+    width:200px;
+    padding: 10px;
+}
