@@ -1,0 +1,76 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. John Smith",
+      "specialty": "Surgeon",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "Community Hospital",
+        "General Hospital"
+      ]
+    },
+    {
+      "name": "Dr. Jane Doe",
+      "specialty": "Pediatrician",
+      "hospitals": [
+        "Children's Hospital",
+        "General Hospital",
+        "Community Hospital"
+      ]
+    },
+    {
+      "name": "Dr. Michael Johnson",
+      "specialty": "Orthopedic Surgeon",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "General Hospital",
+        "Orthopedic Hospital"
+      ]
+    },
+    {
+      "name": "Dr.mrudhula",
+      "specialty": "general Surgeon",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "General Hospital",
+        "Orthopedic Hospital"
+      ]
+    },
+    {
+      "name": "Dr.lakshmikanth Das",
+      "specialty": "Nutritionist",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "General Hospital",
+        "Orthopedic Hospital"
+      ]
+    },
+    {
+      "name": "Dr.amruthavarshini",
+      "specialty": "cardiology",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "General Hospital",
+        "Orthopedic Hospital"
+      ]
+    },
+    {
+      "name": "Dr. Anand",
+      "specialty": "Psychiatrist",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "General Hospital",
+        "Orthopedic Hospital"
+      ]
+    },
+    {
+      "name": "Dr. viswanath",
+      "specialty": "Dentist",
+      "hospitals": [
+        "St. Mary's Hospital",
+        "General Hospital",
+        "Orthopedic Hospital"
+      ]
+    }
+  ]
+}
