@@ -1,0 +1,26 @@
+.parent{
+    
+    display:flex;
+    flex-direction: row;
+    flex-grow: same;
+    margin: auto;
+    font-size: medium;
+}
+.child1{
+    width:1000px;
+    height:800px;
+    background-image: linear-gradient(#f6c492, #f6cf92,#f6d992);
+    margin:auto;
+}
+#a1{
+   
+    background-color: rgb(93, 210, 35);
+    color:rgb(255,255,255);
+    border-color: black;
+    border-radius: 20px;
+    margin: auto;
+    width:120px;
+    padding: 10px;
+    text-decoration: none;
+
+}
