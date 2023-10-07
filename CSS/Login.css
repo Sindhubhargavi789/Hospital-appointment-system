@@ -1,0 +1,143 @@
+.parent{
+    
+    display:flex;
+    flex-direction: row;
+    flex-grow: same;
+    margin: auto;
+    
+}
+.child1{
+    width:600px;
+    height:700px;
+    background-color: rgb(133, 223, 218);
+  margin-left: 150px;
+  border-radius: 20px 0px 0px 20px;
+    
+    
+    
+}
+.child2{
+    width:600px;
+    height:700px;
+    justify-content: space-around;
+    
+    
+    
+
+    background-image: linear-gradient(to right,rgb(243, 28, 67), rgb(244, 49, 124));
+    border-radius: 0px 20px 10px 0px;
+    
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+#i1{
+ margin-left: 240px;
+ margin-top: 20px;
+ width:55px;
+ height:55px;
+ display: inline;
+ padding-right: 5px;
+ 
+}
+#i2{
+    margin-right: 55px;
+    margin-top: 20px;
+    width:50px;
+    height:50px;
+    padding-left: 5px;
+    
+
+}
+p{
+    text-align: center;
+    padding:20px 2px 5px 5px;
+    margin-left:40px;
+    font-variant-position: super;
+    font-family:fantasy;
+    font-weight: 200px;
+}
+#p1{
+    text-align: left;
+    padding:20px 2px 5px 5px;
+    font-variant-position: super;
+    font-family:fantasy;
+    font-weight: 100px;
+}
+#first{
+    display: block;
+    margin: auto;
+    padding:8px;
+    width:300px;
+    margin-bottom: 30px;;
+    border-color: azure;
+    background-color: rgb(240,240,240);
+}
+#second{
+    display: block;
+    margin: auto;
+    padding:8px;
+    width:300px;
+    margin-bottom: 20px;
+    background-color: rgb(240,240,240);
+    border-color: azure;
+}
+#b1{
+   
+    background-color: rgb(210, 102, 35);
+    color:rgb(249, 253, 253);
+    border-color: red;
+    border-radius: 25px;
+    margin-left: 250px;
+    width:120px;
+    padding: 10px;
+}
+
+#b2{
+   
+    background-color: rgb(210, 102, 35);
+    color:rgb(255,255,255);
+    border-color: red;
+    border-radius: 30px;
+    margin-left: 250px;
+    width:120px;
+    padding: 10px;
+}
+#sin{
+    margin-top: 40%;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#dhu{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 25px;
+
+}
+
+#i3{
+    margin-left: 200px;
+    margin-top: 20px;
+    width:205px;
+    height:205px;
+    display: inline;
+    padding-right: 5px;
+    
+   }
+
+   #a1{
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(190, 40, 140);
+    border-radius: 20%;
+    padding: 10px;
+    text-decoration-color: azure;
+    margin-left: 250PX;
+}
