@@ -1,0 +1,19 @@
+let box = document.querySelector('#container')
+fetch("http://localhost:4000/doctors")
+.then((response)=>response.json())
+.then(data => {
+    console.log(data)
+    data.forEach(element => {
+        let card = document.createElement('div')
+        card.innerHTML =
+        '<div class="card" style="width: 18rem;height: 300px; border-radius:20px; background-image: linear-gradient(rgb(156, 157, 244),rgb(204, 239, 238),rgb(142, 190, 233));box-shadow:2px 2px 2px aqua">'+
+        
+  
+
+            '<div class="card-body" style="padding:50px;">' +
+            '<p class="card-text">' + 'Name: '+ element.name + '</p>' + '<p class="card-text">' +'Speciality: '+ element.specialty+ '</p>' +'<p class=card-text>'+'Hospital: '+element.hospitals+'</p>'+'<p class="card-text style="padding-bottom:40px;">'+'Experience: '+element.Experience+'</p>'+
+            '<a href="http://127.0.0.1:5500/slotbooking.html" style="text-decoration:none;background-color:#ff7a7a;color:white;border-radius: 20%;padding: 10px;text-decoration-color: azure;margin-left: 50PX; ">'+'BOOK'+'</a>'
+        '</div>'
+        box.appendChild(card)
+    });
+})
