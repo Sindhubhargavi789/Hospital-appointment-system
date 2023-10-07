@@ -1,0 +1,26 @@
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+   
+    margin-top:200px;
+    margin-left: 150px;
+    text-shadow: 3px 3px 3px rgb(255, 140, 0);
+}
+body{
+    background-image: url(https://www.shutterstock.com/image-photo/hand-arranging-wood-block-healthcare-260nw-1561815367.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    
+}
+a{
+    margin-left: 800px;
+    text-decoration: none;
+    color: bisque;
+    background-color: chocolate;
+    padding: 30px;
+    box-shadow: 2px 2px 2px orange;
+    border-radius: 30px;
+    font-size:larger;
+
+}
